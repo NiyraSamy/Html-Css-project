@@ -1,0 +1,237 @@
+#body1{
+    background-color: #fcc91b;
+    width:1307px;
+    height:52px;
+    margin-left: -9px;
+    margin-top: -8px;
+    padding-left: 60px;
+    text-align: center;
+    display: inline-flex;
+    font-size: 29px;
+}
+#body1 h5{
+    padding-left: 30px;
+    margin-top: 11px;
+    color: white;
+}
+.H-anch:hover , .f-anch:hover{background-color: transparent; }
+.H-anch { margin-top: -1px;  }
+
+#menu li>p{
+    font-size: 30px;
+    color: black;
+    margin-top: 10px;
+}
+
+/*html charity*/
+.Menu_bar{
+    background-color:white;
+    text-align: center;
+    border-radius: 20px;
+    width:1550px;
+    height:145px;
+    margin-left: -120px;
+
+}
+/* fixed menu bar javascript */
+nav.sticky{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width:1550px;
+    height:125px;
+    padding: 20px 16%;
+    padding-left: 80px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Menu_bar ul{
+    display: inline-flex;
+    list-style-type: none;
+    color: white;
+    
+}
+.Menu_bar ul li{
+    width: 120;
+    padding: 15px;
+    margin: 15px;
+}
+.Menu_bar ul li a{
+    text-decoration: none;
+    color:black;
+}
+/* .active, .Menu_bar ul li:hover{
+    background:white;
+    border-radius: 3px;
+} */
+.Menu_bar .fa{
+    margin-right: 8px;
+}
+.sub_menu_1{
+    display: none;
+}
+.Menu_bar ul li:hover .sub_menu_1{
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -15px;
+    background-color:white;
+}
+.Menu_bar ul li:hover .sub_menu_1 ul{
+    display: block;
+    margin: 10px;
+
+}
+.Menu_bar ul li:hover .sub_menu_1 ul li{
+    width: 250px;
+    padding: 10px;
+    border-bottom: 1px dotted white;
+    background: transparent;
+    border-radius: 0px;
+    text-align: left;
+}
+.Menu_bar ul li:hover .sub_menu_1 ul li:last-child{
+    border-bottom: none;
+}
+.Menu_bar ul li a:hover{
+    color:rgb(231, 190, 53);
+}
+.Menu_bar ul li:hover .sub_menu_1 ul li a:hover{
+    color:rgb(231, 190, 53);
+}
+
+#body2{
+    background-color:rgb(212, 194, 32);
+    width:1550px;
+    height:800px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#body3{
+    width:800px;
+    height:300px;
+    display: inline-flex;
+    text-align: center;
+    margin: 0px;
+    padding-left: 250px;
+    font-size: 18px;
+}
+#body3 h4{
+    color: white;
+}
+.thirdpart1{
+    width: 200px;
+    margin:5px;
+    
+}
+.thirdpart2{
+    width: 200px;
+    margin:5px;
+}
+.donate{
+    text-decoration: none;
+    border: 3px yellow solid;
+    border-radius: 20px;
+    color:white;
+    padding: 5px;
+}
+.donate:hover{ border-color: gray;}
+
+#body4{
+    width:400px;
+    height:300px;
+    display: inline-flex;
+    text-align: center;
+    margin: 0px;
+    padding-left: 450px;
+    font-size: 18px;
+}
+#body4 h4{
+    color: white;
+}
+
+#body5{
+    width:1000px;
+    height:100px;
+    display: inline-flex;
+    text-align: center;
+    padding-left: 200px;
+}
+#body5 a{
+    margin: 30px;
+    text-decoration: none;
+}
+
+#body6{
+    margin-bottom: -4px;
+}
+.Join{text-decoration: none;}
+.Join:hover{text-decoration: none;color: #fcc91b; font-weight: bolder;}
+
+#body7{
+    width:1550px;
+    height:900px;
+    margin-left: -80px;
+    text-align: center;
+}
+
+.T-M-anch{text-decoration: none;color: #fcc91b; font-weight: bolder; font-size: 30px;}
+.T-M-anch:hover{background-color : gray;}
+.button2 {
+    background-color: #fcc91b;
+    border: none;
+    height: 40px;
+    width: 145px;
+    color: white;
+    padding: 0px;
+    text-align: center;
+    font-weight: bold;
+    display: block;
+    font-size: 13px;
+    margin: 4px 2px;
+    border-radius: 12px;
+}
+
+.b1 , .b2 , .b3 , .b4 , .b5   {border: none;  background-color: #fff4ff;} 
+.b1:hover , .b2:hover , .b3:hover , .b4:hover , .b5:hover{ background-color: #f1e5f1; margin-top: 2px;}
+
+#footer{
+    background-color: #333;
+    width:1550px;
+    height:400px;
+    margin-left: -8px;
+
+}
+#footer .topp{
+    color: yellow;
+    font-size: 100px;
+    padding-left: 1280px;
+    padding-top: 200px;
+}
+#footer .coco a{
+    text-decoration: none;
+    color: yellow;
+    padding-left: 200px;
+}
+#footer .minis {
+    padding-left: 200px;
+}
+#footer .minis a{
+    color: yellow;
+    padding: 10px;
+}
+#footer h3{
+    color: white;
+    text-align: center;
+}
+
+#bimage{
+    width:1550px;
+    height:800px;
+    margin: 0px;
+    padding: 0px;
+}
+     

@@ -1,0 +1,107 @@
+		.header
+        {
+            background-color: #fcc91b;
+            padding-left: 85px;
+            margin-top: -10px;
+            margin-left: -10px;
+            margin-right: -10px;
+            height: 53px;
+        }
+        .Start
+        {
+            margin-top: 122px;
+            margin-left: -83px;
+        }
+        
+        .top-right {
+            position: absolute;
+            top: 267px;
+            right: 165px;
+            background-color: yellow;
+            font-weight: bolder;
+        }
+		.top-center {
+            position: absolute;
+            top: 1197px;
+			text-align: center;
+			width: 120px;
+            right: 615px;
+            background-color: black;
+            font-weight: bolder;
+			border-radius: 12px;
+        }
+        #home:hover, #home:link { text-decoration: none; color:yellow; }
+		#Join:hover , #Join:link{ text-decoration: none; color:yellow; background-color: black;}
+
+		.button2 {
+			background-color: #fcc91b;
+			border: none;
+			height: 40px;
+			width: 145px;
+			color: white;
+			padding: 0px;
+			text-align: center;
+			font-weight: bold;
+			display: block;
+			font-size: 13px;
+			margin: 4px 2px;
+			border-radius: 12px;
+		}
+		a:hover{background-color: gray;}
+        .button1:hover , .button2:hover{background-color: #947920}
+        .H-anch:hover , .f-anch:hover{background-color: transparent; }
+        .T-M-anch{text-decoration: none;color: #fcc91b; font-weight: bolder; font-size: 30px;}
+
+        #footer{
+            background-color: #333;
+            width:1550px;
+            height:400px;
+            margin-left: -83px;
+        }
+        #footer .topp{
+            color: yellow;
+            font-size: 100px;
+            margin-left: 1280px;
+            
+        }
+        #footer .coco a{
+            text-decoration: none;
+            color: yellow;
+            padding-left: 200px;
+        }
+        #footer .minis {
+            padding-left: 200px;
+        }
+        #footer .minis a{
+            color: yellow;
+            padding: 10px;
+        }
+        
+        .DivLeft{
+            width: 750px;
+            float: left;
+            margin-left: -80px;
+            padding-left: -100px;
+        }
+        
+        .DivRight{
+                width:750 px;
+                float:right;
+                margin-right: -140px;
+                
+                margin-top: -400px;
+        }
+        
+        .button {
+          background-color:rgb(255, 187, 0);
+          
+          color: white;
+         
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          margin: 4px 2px;
+          cursor: pointer;
+          font-size: 16px;
+          border: 2;
+        }

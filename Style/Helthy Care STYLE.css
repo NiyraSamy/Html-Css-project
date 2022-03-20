@@ -1,0 +1,183 @@
+		.header
+        {
+            background-color: #fcc91b;
+            padding-left: 85px;
+            margin-top: -10px;
+            margin-left: -10px;
+            margin-right: -10px;
+            height: 53px;
+        }
+        .Start
+        {
+            margin-top: 122px;
+            margin-left: -83px;
+        }
+        .Body
+        {
+            color: #333;
+            font-size: 13.6px;
+            font-weight: bolder;
+            font-style: normal;
+            text-transform: none;
+            line-height: 1.6em;
+            font-family: serif;
+            margin-top: 83px;
+            margin-left: 1px;
+        }
+        .top-right {
+            position: absolute;
+            top: 267px;
+            right: 190px;
+            background-color: yellow;
+            font-weight: bolder;
+        }
+		.top-center {
+            position: absolute;
+            top: 2370px;
+			text-align: center;
+			width: 120px;
+            right: 615px;
+            background-color: black;
+            font-weight: bolder;
+			border-radius: 12px;
+        }
+        #home:hover, #home:link { text-decoration: none; color:yellow; }
+		#Join:hover , #Join:link{ text-decoration: none; color:yellow; background-color: black;}
+        #text
+        {
+            background-color: #e6dfdfd5;
+            height: 27px;
+            font-size: 20px;
+            text-align: center;
+            font-weight: lighter;
+            width: 27px;
+            padding-top: 4px;
+            border: 1px solid #ccc;
+        }
+        .in 
+        {
+            border: 1px solid #ccc;
+            color: #ccc;
+            background: #fff;
+            height: 30px;
+            line-height: 35px;
+            padding: 0 5px; 
+            width: 125px;
+            font-size: 18px
+        }
+        .i , .ii , .c , .i3 , .i4
+        {
+            border: 1px solid #ccc;
+            color: gray;
+            height: 40px;
+            line-height: 35px;
+            padding-left: 5px;
+            margin-top: -8px;
+            width: 550px;
+            font-size: 14px
+        }
+        .ii{width: 1120px; margin-top: 7px;}
+		.i4{width: 1120px; margin-top: -10px;}
+        .butt{
+            border: 1px solid #e6dfdfd5;
+            color: rgb(71, 70, 70);
+            background: #e6dfdfd5;
+            height: 35px;
+            line-height: 35px;
+            padding: 0 5px; 
+            font-size: 18px;
+            font-weight: lighter;
+        }
+        .b{
+            border-left: 2px solid #e6dfdfd5;
+            color:rgb(89, 59, 112);
+            background: rgb(248, 248, 248);
+            height: 30px;
+            padding-right: 30px;
+            border-top: none; border-bottom: none; border-right: none;
+            font-size: 16px;
+            font-weight: bold;
+            margin-top: -50px;
+        }
+        .butt:hover
+        { background-color: gray;
+        }
+        .b:hover
+        { background-color:rgb(225, 205, 252)
+        }
+        #body1 #text,.in{display: table-cell;}
+        .in:focus , .i:focus , .ii:focus , .c:focus , .ch:focus{ outline:none; background-color: rgb(255, 244, 244);}
+        #money ul , #pay ul , #info ul , #CInfo ul , #BInfo ul{list-style: none; margin-left: -40px;}
+        #money li , #pay li , #info li , #CInfo li, #BInfo li  {display: table-cell; padding-right: 10px; }
+        #pay
+        {
+            border: 1px solid rgb(226, 228, 226);
+            background-color:white;
+            border-left: none; border-right: none;
+            width: 1150px;
+            height: 40px;
+            border-bottom: none;
+            margin-top: -15px;
+        }
+        #info , #CInfo , #BInfo
+        {
+            border: 1px solid rgb(226, 228, 226);
+            background-color:rgb(248, 248, 248);
+            border-left: none; border-right: none;
+            width: 1150px;
+            margin-top: -10px;
+
+        }
+		#CInfo{ margin-top: 65px; } 
+		#BInfo{margin-top: 60px;}
+        #info p {padding-right: 475px; margin-top: -15px; margin-bottom: -4px;}
+		#CInfo p{padding-right: 475px; margin-top: -30px; margin-bottom: -4px;}
+		#BInfo p { padding-right: 475px; margin-top: -30px; margin-bottom: 15px; }
+
+		.button1 , .button2 {
+			background-color: #fcc91b;
+			border: none;
+			height: 40px;
+			width: 145px;
+			color: white;
+			padding: 0px;
+			text-align: center;
+			font-weight: bold;
+			display: block;
+			font-size: 13px;
+			margin: 4px 2px;
+			border-radius: 12px;
+		}
+		a:hover{background-color: gray;}
+        .button1:hover , .button2:hover{background-color: #947920}
+        .H-anch:hover , .f-anch:hover{background-color: transparent; }
+        .p-name {font-size: 14px; font-weight: 550;font-family: sans-serif;padding-top: 10px;}
+        .s-name{color: brown;font-weight: bolder; font-size: 18px;}
+        .star{ color: brown;font-weight: bolder; font-size: 18px;}
+        .T-M-anch{text-decoration: none;color: #fcc91b; font-weight: bolder; font-size: 30px;}
+
+        #footer{
+            background-color: #333;
+            width:1550px;
+            height:400px;
+            margin-left: -83px;
+        }
+        #footer .topp{
+            color: yellow;
+            font-size: 100px;
+            margin-left: 1280px;
+            
+        }
+        #footer .coco a{
+            text-decoration: none;
+            color: yellow;
+            padding-left: 200px;
+        }
+        #footer .minis {
+            padding-left: 200px;
+        }
+        #footer .minis a{
+            color: yellow;
+            padding: 10px;
+        }
+        
